@@ -3,13 +3,13 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.eth;
 
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Beautiful Eyes";
+const description = "A NFT Collection That Contains 50 Beautiful Eyes";
+const baseUri = "ipfs://QmPAgyCjcMQLag5HM2rJN71Zkt1TFtgLdyqcG8qzum73vh";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
