@@ -4,7 +4,8 @@ async function main() {
   const BeautifulEyesNFT = await hre.ethers.getContractFactory(
     "BeautifulEyesNFT"
   );
-  const beautifulEyesNFT = await BeautifulEyesNFT.deploy("Hello, Hardhat!");
+  // Add the sale time as a parameter
+  const beautifulEyesNFT = await BeautifulEyesNFT.deploy(1652017663);
 
   await beautifulEyesNFT.deployed();
 
