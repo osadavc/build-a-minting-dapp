@@ -13,7 +13,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Provider client={client}>
       <Head>
-        <title>Next Starter</title>
+        <title>Beautiful Eye NFT</title>
       </Head>
       <Component {...pageProps} />
     </Provider>
